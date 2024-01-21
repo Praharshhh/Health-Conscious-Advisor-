@@ -1,0 +1,19 @@
+/* CSS code for chat bot image */
+#chatBot {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to set the distance from the bottom */
+    right: 20px; /* Adjust this value to set the distance from the right */
+    cursor: pointer;
+    z-index: 999; /* Ensure the chat bot is above other elements */
+  }
+  
+  /* Styling for the chat bot image container */
+  #chatBot img {
+    display: block; /* Make the image a block element to center it */
+    margin: 0 auto; /* Center the image horizontally within its container */
+    width: 80px; /* Set the width of the chat bot image */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 50%; /* Make it a circle (optional) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow (optional) */
+  }
+  

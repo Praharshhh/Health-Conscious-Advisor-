@@ -17,3 +17,7 @@ def test():
         return "ERROR"
 
     return "Image Recived"
+
+
+#here we will use postman of the forentend to make it work with the backend 
+http://127.0.0.1:5000/food-suggestions
